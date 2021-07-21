@@ -7,6 +7,6 @@ describe('yearsAgo' , function(){
     });
 
     it('should return not year if year value is above current year' , function(){
-        assert.isBelow(yearsAgo(2022), 0);
+        assert.equal(yearsAgo(2022), -1);
     });
 });
