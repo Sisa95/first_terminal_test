@@ -2,7 +2,7 @@
   "name": "mocha",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "countAllFromTown.js",
   "directories": {
     "test": "test"
   },
